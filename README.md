@@ -9,7 +9,7 @@ FloatLabelFields
 
 - [Overview](#overview)
 - [Installation](#installation)
-	- [Swift Package Manager](#Swift Package Manager)
+	- [Swift Package Manager](#Swift-Package-Manager)
 - [Usage](#Usage)
 	- [Via Interface Builder](#via-interface-builder)
 	- [Via Code](#via-code)
