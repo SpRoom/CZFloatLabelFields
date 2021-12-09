@@ -32,6 +32,30 @@ Credits for the concept to Matt D. Smith ([@mds](http://www.twitter.com/mds)), a
 
 Since the code is Swift-based, do note that this version of the component swill only work on iOS 10.x+.
 
+## Installation ##
+
+### Swift Package Manager ###
+1. Select `Xcode -> File -> Swift Packages -> Add Package Dependency...` 
+2. Enter `https://github.com/SpRoom/CZFloatLabelFields.git`.
+3. Click `Next`, then select the version, complete.
+
+#### or use Pacakge.Swift 
+
+```swift
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    platforms: [.iOS(.v10)],
+    dependencies: [
+        .package(url: "https://github.com/SpRoom/CZFloatLabelFields.git", from: "1.0.0"),
+    ],
+    .target(
+        name: "YOUR_TARGET_NAME",
+        dependencies: [
+            "CZFloatLabelFields",
+        ]
+    )
+)
+```
 ## Usage ##
 
 You can ust the `FloatLabelField` components two ways:

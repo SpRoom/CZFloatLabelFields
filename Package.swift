@@ -19,8 +19,9 @@ let package = Package(
         .target(
             name: "CZFloatLabelFields",
             dependencies: [],
-            path: "FloatLabelFields",
-            sources: ["FloatLabelFields"]
+            path: "FloatLabelFields"
         )
     ]
 )
+
+
