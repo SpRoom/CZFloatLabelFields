@@ -9,6 +9,8 @@ FloatLabelFields
 
 - [Overview](#overview)
 - [Installation](#installation)
+	- [Swift Package Manager](#Swift Package Manager)
+- [Usage](#Usage)
 	- [Via Interface Builder](#via-interface-builder)
 	- [Via Code](#via-code)
 - [Credits](#credits)
@@ -102,5 +104,4 @@ vwHolder.addSubview(fld)
 * E-mail: fahimf (at) gmail (dot) com
 * Web: [http://rooksoft.sg/](http://rooksoft.sg/)
 * Twitter: [http://twitter.com/FahimFarook](http://twitter.com/FahimFarook) 
-
 
